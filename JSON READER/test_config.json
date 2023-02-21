@@ -1,0 +1,20 @@
+﻿{
+  "DatabaseConfig": {
+    "Authorization": "Windows",
+    "Name": "test_db"
+  },
+  "IntegrationConfig": [
+    {
+      "Name": "test1",
+      "Authorization": "password",
+      "Host": "testsftp.com",
+      "Transfer": "SFTP"
+    },
+    {
+      "Name": "test2",
+      "Authorization": "key",
+      "Host": "testftps.com",
+      "Transfer": "FTPS"
+    }
+  ]
+}
